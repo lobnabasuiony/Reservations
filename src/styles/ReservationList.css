@@ -1,0 +1,68 @@
+.data-grid-container .MuiDataGrid-columnHeaderTitle {
+  font-weight: bold !important;
+}
+
+.data-grid-container {
+  width: 100%;
+  margin: 20px;
+}
+
+.filters {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.filters input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.custom-table th {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.custom-table th:hover {
+  background-color: #ddd;
+}
+
+.pagination {
+  margin-top: 10px;
+}
+
+.pagination select,
+.pagination button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.pagination select {
+  background-color: #f2f2f2;
+}
+
+.pagination button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

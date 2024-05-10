@@ -1,0 +1,24 @@
+------------Documentation-------------
+- Technologies Used :-
+   . React with TypeScript.
+
+-Dependencies and Libraries:
+  @mui/MuiDataGrid  : Provides Data Grid functionality.
+
+-Development Process:-
+    1. Set up a new project using React with TypeScript.
+    2. Install necessary dependencies: react, typescript , Material UI.
+    3. Establish the structure for the application 
+     - /components : Contains all reusable components of the App.
+     - /data       : Contains mockup data used in the task.
+     - /interface  : Contains all models used in the app to define the structure of data used in the application.
+     - /styles     : Contains CSS stylesheets .
+    5. Begin development by creating an initial component in the "components" directory (Home.tsx). This will serve as the entry point of our application.
+    6.create (ReservationList) component using MuiDataGrid 
+    7.create (ReservationListWithoutLibrary) component 
+    
+
+ -Notes:-
+   -I developed  two components: one utilizing Material UI (Mui) for the table and another without any external libraries.
+   -I Prefer the Material UI component due to its time-saving features, readability, and comprehensive functionality.
+   -You can simply replace <ReservationList/> with <ReservationListWithoutLibrary/> in Home.tsx file to see the version without using libraries.
